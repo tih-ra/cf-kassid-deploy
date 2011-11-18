@@ -1,0 +1,10 @@
+{
+   "dir": "dep.prod"
+,  "copy": {
+  	 "client.prod/": "client.prod/"
+  ,  "server.prod/prod.js": "app.js"
+  ,  "server.dev/api/": "api/"
+  ,  "cf-service-defaults.json": "cf-service-defaults.json"
+  ,  "node_modules/": "node_modules/"
+  }
+}
